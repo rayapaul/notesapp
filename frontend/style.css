@@ -1,0 +1,62 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: pink;
+  height: 100vh;
+  margin: 0;
+}
+
+h1 {
+  font-size: 2rem;
+}
+body #content p {
+  font-size: 1.2rem;
+}
+#content {
+  background-color: white;
+  box-shadow: 10px 10px 50px 15px crimson;
+  min-width: 400px;
+  min-height: 400px;
+}
+
+#content div {
+  padding: 0 10px;
+}
+
+input {
+  border: none;
+  outline: none;
+  padding: 10px 0;
+}
+
+.button {
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  width: 400px;
+  height: 50px;
+  border: solid #c3c3c3;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: crimson;
+  color: white;
+}
+
+.fa {
+  position: fixed;
+  right: 0;
+}
+.fa-facebook {
+  position: fixed;
+  right: 0;
+  top: 4rem;
+}
+.fa:hover {
+  background-color: white;
+}
